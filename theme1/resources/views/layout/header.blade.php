@@ -10,18 +10,21 @@
 
   <!-- Bootstrap -->
 
-  <!--<link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- <link href="css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="css/font-awesome.min.css">
   <link rel="stylesheet" href="css/animate.css">
   <link href="css/animate.min.css" rel="stylesheet">
-  <link href="css/style.css" rel="stylesheet" />-->
+  <link href="css/style.css" rel="stylesheet" /> 
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  -->
 
-  {{Html::style('css/app.css')}}
+  {{Html::style('css/bootstrap.min.css')}}
   {{Html::style('css/font-awesome.min.css')}}
   {{Html::style('css/animate.css')}}
   {{Html::style('css/animate.min.css')}}
   {{Html::style('css/style.css')}}
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  {{Html::style('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css')}}
+
   <!-- =======================================================
     Theme Name: Day
     Theme URL: https://bootstrapmade.com/day-multipurpose-html-template-for-free/

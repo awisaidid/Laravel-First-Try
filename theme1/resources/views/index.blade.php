@@ -1,6 +1,6 @@
 @extends('layout.master')
 @section('content')
-<div class="slider">
+  <div class="slider">
     <div id="about-slider">
       <div id="carousel-slider" class="carousel slide" data-ride="carousel">
         <!-- Indicators -->
