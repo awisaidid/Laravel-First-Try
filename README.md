@@ -7,16 +7,16 @@ Clone project
 
 then enable writing permission for logs
 
-```sudo chmod -R gu+w theme1
-sudo chmod -R gu+w theme1/storage```
+`sudo chmod -R gu+w theme1
+sudo chmod -R gu+w theme1/storage`
 
 Generate  .env file and generate keys
 
 
-```cp .env.example .env
+`cp .env.example .env
 php artisan key:generate
 php artisan config:cache
-composer dump-autoload```
+composer dump-autoload`
 
 run on server
 `php artisan serve`
